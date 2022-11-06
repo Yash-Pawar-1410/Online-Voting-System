@@ -1,0 +1,356 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:pink;
+    background-size: cover;
+    background-position: auto;
+    
+    font-family: sans-serif;
+}
+header{
+    box-sizing: border-box;
+    background-color:slategray;
+    height: 62px;
+    width: 100%;
+    
+}
+.logo img{
+    float: left;
+    position: relative;
+    top: 0;
+    height: 62px;
+    width: 70px;
+    margin-left: 0;
+     
+}
+
+.logo2 img {
+    float: right;
+    position: relative;
+    top:-15px;
+    height: 65px;
+    width: 70px;
+    margin-right: 0;
+     
+}
+h1{
+    color:black;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-left:33%;
+    margin-top: -72px;
+    font-size: 150%;
+    font-family: 'libre baskervill e',sans-serif;
+    font-weight: 540;   
+    height: auto;
+
+}
+
+
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 34ch;
+    }
+}
+
+.menu-bar{
+    background: skyblue;
+    text-align: center;
+    
+    margin-top: 23px;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color:black;
+    background: skyblue;
+    
+}
+.menu-bar ul li{
+    
+    width: 250px;
+    margin: 0;
+    background: skyblue;
+    border-bottom-style: double ;   
+    border-radius: 25px;
+    
+    height: 35px;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+    color: blue;
+    font-size: 18px;
+    position: relative;
+    
+
+}
+
+.menu-bar ul li:hover{
+   
+    color: red;
+    
+} 
+.menu-bar ul ul{
+    display: none;
+    margin-top: -2px;
+    
+}
+.menu-bar ul li:hover > ul{
+    display: block;
+    border-bottom-style: double ;   
+    border-radius: 25px;
+    color: blue;
+}
+.menu-bar ul ul ul{
+    margin-left: 220px;
+    top: 0px;
+    border-bottom-style: double ;   
+    border-radius: 25px;
+    color: blue;
+    position: absolute;
+}
+
+.box{
+    position: relative;
+    top: 250px;
+    left: 18%;
+    z-index: 100;
+    
+    transform: translate(-50%,-50%);
+    width: 455px;
+    height: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    
+}
+.box:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+.box .content h2{
+    margin: 0;
+   margin-top: 15px;
+    height: auto;
+    color: white;
+    background-color:   black;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 540;
+    text-align: center;
+    
+}
+.box .content{
+    padding-left: 1px;
+    
+}
+.box .content p{
+    margin: 0;
+    font-size: 17px;
+    padding: 10px 0 0;
+    text-align: justify;    
+    letter-spacing: 0.5px;    
+}
+
+
+
+
+.container{
+    position: relative;
+    top:-100px;
+    left: 82%;
+    z-index: 100;
+    transform: translate(-50%,-50%);
+    width: 455px;
+    height: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    
+}
+.container:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+.container .imgx{
+    width: 550px;
+    float: left;
+}
+.container .imgx img{
+   max-width: 30%;
+    margin-top: 35px;
+    margin-left: 9%;
+    
+}
+.container .boxx{
+   padding-left:0;
+   margin-left: -510px;
+   margin-top: 10px;
+}
+.container .boxx h3{
+    margin: 0;
+    padding-left: 0;
+    height: auto;
+    color: white;
+    background-color:   black;
+    overflow: hidden;
+    font-size: 18px;
+    text-align: center;
+    
+    
+    
+}
+
+.container .boxx p{
+    margin: 0;
+   margin-left: 180px;
+    font-size: 17px;
+    padding: 15px 0 0;
+    text-align: justify;
+    letter-spacing: 1px;    
+}
+
+
+.board{
+    position: relative;
+    top:-10px;
+    left: 50%;
+    z-index: 100;
+    
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    background:gray;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    
+}
+.board:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+.board .notice h1{
+    margin: 0;
+   margin-top: 10px;
+    height: 30px;
+    line-height: 10px;
+    width: 878px;
+    color: white;
+    background-color:   black;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 540;
+    text-align: center;
+    
+}
+.board .notice{
+    padding-left: 1px;
+    
+}
+.board .notice li{
+    margin-left: 10px;
+    
+    font-size: 17px;
+    padding: 30px 0 0;
+    text-align: justify;    
+    letter-spacing: 0.5px;    
+}
+    
+    
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+footer{
+    position: absolute;
+    bottom: -510px;
+    width: 100%;
+}
+.footer-main-div{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background: #272727;
+    padding: 3px 0px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: 40%;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 15px;
+    border-radius: 100%;
+    background: white;
+}
+.footer-social-icons ul li a{
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+.footer-social-icons ul li a i{
+    line-height: 30px;
+}
+.footer-social-icons ul li:hover{
+    background: #f00;
+}
+.footer-social-icons ul li a:hover {
+    color: #fff;
+}
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: whitesmoke;
+    padding: 8px;
+}
+.footer-bottom p{
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.footer-bottom p a{
+    color: #fff;
+}
+.footer-bottom p a:hover{
+    color:#32CD32;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,gray);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,black);
+}
